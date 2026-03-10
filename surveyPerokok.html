@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Perokok</h1>
+    <form>
+        <div>
+            <label for="nama"><b>Nama</b></label>
+            <input type="text" id="nama">
+        </div>
+        <br>
+        <div>
+            <label for="umur"><b>Umur</b></label>
+            <input type="number" id="umur">
+        </div>
+        <br>
+        <div>
+            <label><b>Jenis Kelamin</b></label>
+            <input type="radio" name="gender" id="L"><label for="L">Laki-laki</label>
+            <input type="radio" name="gender" id="P"><label for="P">Perempuan</label>
+        </div>
+        <br>
+        <div>
+            <label for="perokok"><b>Apakah anda seorang perokok?</b></label>
+            <select name="andaPerokok" id="perokok">
+                <option value="false" disabled selected>--Pilih salah satu--</option>
+                <option value="ya">Ya</option>
+                <option value="tidak">Tidak</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label ><b>Brand rokok yang digunakan: </b></label>
+            <br>
+            <input type="checkbox" name="brand" id="sampoerna"><label for="sampoerna">Sampoerna</label>
+            <input type="checkbox" name="brand" id="surya"><label for="surya">Surya</label>
+            <input type="checkbox" name="brand" id="esse"><label for="esse">Esse</label>
+            <input type="checkbox" name="brand" id="bentoel"><label for="bentoel">Bentoel</label>
+            <input type="checkbox" name="brand" id="76"><label for="76">76</label>
+        </div>
+        <br>
+        <div>
+            <button>Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
